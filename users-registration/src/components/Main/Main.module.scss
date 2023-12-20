@@ -1,0 +1,85 @@
+@mixin flex-center {display: flex; align-items: center; justify-content: center;}
+
+.wrapper {
+  @include flex-center ();
+  flex-direction: column;
+
+  button {
+    width: 141px;
+    height: 35px;
+  }
+
+  button:last-child {
+    width: 120px;
+    margin: 40px;
+    right: 27px;
+  }
+}
+
+.radioBox {
+margin-right: 256px;
+
+p {
+  font-size: 18px;
+  line-height: 0;
+}
+
+@media (min-width: 360px) {
+  margin-right: 150px;
+  }
+}
+
+.upload {
+margin-top: 30px;
+
+div {
+  border-radius: 0 4px 4px 0;
+  width: 300px;
+}
+
+label {
+  border-radius: 4px 0 0 4px;
+  border: 1px solid black;
+  height: 55px;
+  margin: 0;
+}
+
+@media (min-width: 360px) {
+  div {
+    width: 100%;
+   }
+  }
+}
+
+.loginWrapper {
+  @include flex-center ();
+  flex-direction: column;
+}
+
+.form {
+  @include flex-center ();
+  flex-direction: column;
+  margin-top: 50px;
+
+  div {
+    width: 400px;
+    margin-bottom: 25px;
+  }
+
+  p {
+    margin-top: -15px;
+  }
+
+  @media (min-width: 360px) {
+    div {
+      width: 340px;
+      max-width: 100%;
+    }
+  }
+}
+
+.successIcon {
+  width: 450px;
+  height: 450px;
+  margin: 120px;
+}
