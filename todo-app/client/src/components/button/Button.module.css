@@ -1,0 +1,17 @@
+.Button {
+  position: relative;
+  color: rgb(170, 154, 152);
+  font-size: 20px;
+  cursor: pointer;
+  border: none;
+  background: none;
+  font-family: inherit;
+  font-weight: inherit;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+}
+
+.Button:hover {
+  color: inherit;
+}

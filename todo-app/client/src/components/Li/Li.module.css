@@ -1,0 +1,10 @@
+.Li {
+  display: inline;
+  color: inherit;
+  margin: 3px;
+  padding: 3px 7px;
+  border: 1px solid transparent;
+  border-radius: 3px;
+  font-size: 14px;
+  cursor: pointer;
+}

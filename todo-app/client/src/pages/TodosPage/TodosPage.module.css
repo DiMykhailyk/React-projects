@@ -1,0 +1,17 @@
+.Todos {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px; 
+  background: #fff;
+  box-shadow: 0 2px 4px 0 rgb(0 0 0 / 20%), 0 25px 50px 0 rgb(0 0 0 / 10%);
+}
+
+.Container {
+  display: flex;
+  height: 50px;  
+  box-shadow: 0 2px 4px 0 rgb(0 0 0 / 20%), 0 25px 50px 0 rgb(0 0 0 / 10%);
+}
+
+.WrapperForButton {
+  width: 30%;
+}
