@@ -1,5 +1,4 @@
-import React, { useEffect, useState } from "react";
-import styles from "./Router/module.css";
+import React from "react";
 
 export const Router = () => {
   return <div></div>;
